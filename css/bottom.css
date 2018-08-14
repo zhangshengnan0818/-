@@ -1,0 +1,201 @@
+/*   底部 begin*/
+.foot{
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    position: relative;
+    bottom: -1px;
+    margin:20px auto;
+    margin-top:50px
+}
+/* 底部head begin*/
+.foot_head{
+    width: 1090px;
+    height: 160px;
+    margin: 40px auto;
+    border-bottom: 1px solid #ccc;
+}
+.foot_head a:hover{
+    color:dimgrey;
+}
+
+.foot_head .icon{
+    width: 63px;
+    height: 63px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    background: url("../img/footer_0901.jpg") no-repeat;
+
+}
+.foot_head .icon2{
+    width: 63px;
+    height: 63px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    background: url("../img/footer_0901.jpg") no-repeat;
+    background-position: -64px 0;
+
+}
+.foot_head .icon3{
+    width: 63px;
+    height: 63px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    background: url("../img/footer_0901.jpg") no-repeat;
+    background-position: -128px 0;
+}
+.foot_head .icon4{
+    width: 63px;
+    height: 63px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    background: url("../img/footer_0901.jpg") no-repeat;
+    background-position: -190px 0;
+}
+.foot_head .foot_link{
+    width: 130px;
+    height: 140px;
+    color: #999;
+    font-size: 14px;
+    display: block;
+    float: left;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: center;
+    margin:10px 12px;
+}
+.foot_head .con{
+    color: #333;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+/* 底部head end*/
+/*底部 middle begin*/
+.foot .foot_middle{
+    height: 165px;
+    padding-top: 30px;
+    width: 1110px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foot_middle ul{
+    width: 140px;
+    height: 143px;
+    padding-left: 16px;
+    float: left;
+    overflow: hidden;
+}
+.foot_middle .link{
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    overflow: hidden;}
+.foot_middle a{
+    height: 22px;
+    line-height: 22px;
+    color: #666;
+    display: block;
+    -webkit-transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+}
+.foot_middle ul li a:hover {
+    color: #ea1d5d;
+    text-decoration: none;
+    transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+}
+.foot_middle .links{
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-left:10px;
+}
+.foot_middle .link_bottom_pic{
+    background: url(../img/header_corn_new_v2.png) 0 -423px no-repeat;
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 3px;
+}
+.foot_middle .sjjm{
+    position: relative;
+    left: 60px;
+    margin-right: 10px;
+}
+/*底部 middle end*/
+/*底部 bottom begin*/
+.bottom_top{
+    height: 95px;
+    background: url(../img/footer_dy.jpg) center top no-repeat;}
+.bottom_center{
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    background: url(../img/footer_btm02_bg.jpg) center top repeat-x;
+}
+.bottom_center .nav{
+    width: 1090px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bottom_center a {
+    color: #fff;
+    padding-right: 12px;
+    height: 48px;
+    display: inline-block;
+}
+.bottom_bottom{
+    height:200px;
+    background: url(../img/newindex_footer_bg.png) center top repeat-x #404040;
+}
+.bottom_copyright {
+    background: url(../img/newindex_footer_bg.png) center top repeat-x #404040;
+    line-height: 20px;
+    padding-bottom: 30px;
+    color: #ccc;
+    width: 1090px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.infoma{
+    color: #ccc;
+}
+.infoma a{
+    color: #ccc;
+}
+.copy_logo{
+    width: 1090px;
+    margin:0 auto;
+}
+.logo1{
+    width: 126px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 8px;
+    background: url(../img/footer_btm_icon.png) no-repeat;
+}
+/*底部 bottom end*/

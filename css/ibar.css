@@ -1,0 +1,46 @@
+.ibar{
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    width: 40px;
+    display:block;
+}
+.ibar_main_panel{
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    background: #444851;
+    top: 0;
+    font-family: 'microsoft yahei',arial;
+}
+.ibar_main_panel ul{
+    position: relative;
+    top: 50%;
+    margin-top: -190px;
+    left:20px;
+    background: #444851;
+}
+.ibar_main_panel li{
+    position: relative;
+    display: block;
+    height: 38px;
+}
+
+.ibar_main_panel .mpbtn-login{
+    background: url("../img/ibar_sprites.png") no-repeat center center;
+    background-position: 0 0;
+    width:20px;
+    height:25px;
+    position: relative;
+    left: 9px;
+}
+.ibar_main_panel .mpbtn-car{
+    background: url("../img/ibar_sprites.png") no-repeat center center;
+    background-position: 0 -22px;
+    width:20px;
+    height:25px;
+    position: relative;
+    left: 9px;
+}

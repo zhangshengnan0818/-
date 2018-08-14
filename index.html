@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" href="css/head.css" rel="stylesheet">
+    <link type="text/css" href="css/ibar.css" rel="stylesheet">
+    <link type="text/css" href="css/middle.css" rel="stylesheet">
+    <link type="text/css" href="css/bottom.css" rel="stylesheet">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<!--head start-->
+<div class="head">
+    <!--head_top begin-->
+    <div class="head_top">
+        <div class="head_top_box">
+            <ul>
+                <!--login begin-->
+                <li class="head_top_bg"><span style="color: #6c6c6c;">欢迎来到聚美！</span></li>
+                <li class="head_top_bg"><a href="#"> 请登录</a></li>
+                <li class="head_top_bg"><a href="#">快速注册</a></li>
+                <!--login end-->
+                <!--to city begin-->
+                <div id="citynum">
+                    <li class="head_top_bg" id="head_top_box_tocity"><span style="color: #6c6c6c;">送至<span
+                            style="color: #6c6c6c;" id="city">北京</span></span>
+                        <a href="#">
+                            <p class="head_top_tagcity"></p>
+                        </a>
+                    </li>
+                    <div class="header-city-list" id="header-city-list" style="display: none; height: auto;">
+                        <dl class="user-local-city" id="select-city">
+                            <dd class="noborder"><span class="sheng">华北</span>
+
+                                <div class="city-list">
+                                    <a class="city" href="javascript:;">北京</a>
+                                    <a href="javascript:;" class="city">天津</a>
+                                    <a href="javascript:;" class="city">河北</a>
+                                    <a href="javascript:;" class="city">山西</a>
+                                    <a href="javascript:;" class="city">内蒙古</a></div>
+                            </dd>
+                            <dd><span class="sheng">华东</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">上海</a>
+                                    <a href="javascript:;" class="city">浙江</a>
+                                    <a href="javascript:;" class="city">江苏</a>
+                                    <a href="javascript:;" class="city">福建</a>
+                                    <a href="javascript:;" class="city">江西</a>
+                                    <a href="javascript:;" class="city">山东</a>
+                                    <a href="javascript:;" class="city">安徽</a>
+                                </div>
+                            </dd>
+                            <dd><span class="sheng">华南</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">广东</a>
+                                    <a href="javascript:;" class="city">海南</a>
+                                    <a href="javascript:;" class="city">广西</a>
+                                </div>
+                            </dd>
+                            <dd><span class="sheng">华中</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">湖北</a>
+                                    <a href="javascript:;" class="city">湖南</a>
+                                    <a href="javascript:;" class="city">河南</a>
+                                </div>
+                            </dd>
+                            <dd><span class="sheng">东北</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">辽宁</a>
+                                    <a href="javascript:;" class="city">吉林</a>
+                                    <a href="javascript:;" class="city">黑龙江</a>
+                                </div>
+                            </dd>
+                            <dd><span class="sheng">西南</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">重庆</a>
+                                    <a href="javascript:;" class="city">四川</a>
+                                    <a href="javascript:;" class="city">云南</a>
+                                    <a href="javascript:;" class="city">贵州</a>
+                                    <a href="javascript:;" class="city">西藏</a>
+                                </div>
+                            </dd>
+                            <dd><span class="sheng">西北</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">陕西</a>
+                                    <a href="javascript:;" class="city">甘肃</a>
+                                    <a href="javascript:;" class="city">宁夏</a>
+                                    <a href="javascript:;" class="city">青海</a>
+                                    <a href="javascript:;" class="city">新疆</a>
+                                </div>
+                            </dd>
+                            <dd><span class="sheng">更多</span>
+
+                                <div class="city-list">
+                                    <a href="javascript:;" class="city">香港</a>
+                                    <a href="javascript:;" class="city">澳门</a>
+                                    <a href="javascript:;" class="city">台湾</a>
+                                    <a href="javascript:;" class="city">钓鱼岛</a>
+                                    <a href="javascript:;" class="city">海外</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        <div class="city-loading hidden"><i></i>正在切换至<span id="tabcity">上海</span>...</div>
+                    </div>
+                </div>
+                <!--to city end-->
+
+                <li class="head_top_zpbj head_top_bg"><a href="#">正品保证</a></li>
+                <li class="head_top_ddcx head_top_bg"><a href="#">订单查询</a></li>
+                <li class="head_tag_love"></li>
+                <li class="head_top_scpp head_top_bg"><a href="#">收藏的品牌</a></li>
+                <li class="head_top_wdjm head_top_bg" id="head_top_wdjm"><a href="#">我的聚美</a>
+
+                    <ul class="sub_nav" id="sub_nav">
+
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的现金券</a></li>
+                        <li><a href="#">我的红包</a></li>
+                        <li><a href="#">我的余额</a></li>
+                        <li><a href="#">我的提现退款</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的心愿单</a></li>
+                    </ul>
+                    <a href="#">
+                        <span class="head_top_myjm"></span>
+                    </a></li>
+                <li class="head_fenjie head_top_bg">|</li>
+                <li class="head_tag_phone"></li>
+                <li class="head_top_sjjm head_top_bg"><a href="#">手机聚美</a></li>
+                <li class="head_tag_koubei"></li>
+                <li class="head_top_kbzx head_top_bg"><a href="#"> 口碑中心</a></li>
+                <li class="head_fenjie2 head_top_bg">|</li>
+                <li class="head_tag_fenlei"></li>
+                <li class="head_top_ckfl head_top_bg"><a href="#">查看分类</a>
+
+
+                        <!--<div class="lookjm">
+                            <div>
+                                <dl>
+                                    <dt>面部护肤</dt>
+                                    <dd>
+
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>眼部护理</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>唇部护理</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>欧美品牌</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>日韩品牌</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>国货品牌</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>面部底妆</dt>
+                                    <dd>
+
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>眼唇彩妆</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>香水</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>欧美品牌</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a><a href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>日韩品牌</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>国货品牌</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>洗发护发</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>沐浴润肤</dt>
+                                    <dd>
+                                        <a href="#">沐浴露</a>
+                                        <a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a href="#">沐浴露</a><a
+                                            href="#">沐浴露</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>口腔护理</dt>
+                                    <dd>
+                                        <a href="#">牙刷</a>
+                                        <a href="#">牙膏</a>
+                                        <a href="#">漱口水</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>欧美品牌</dt>
+                                    <dd>
+                                        <a href="#">飘柔</a><a href="#">飘柔</a><a href="#">飘柔</a><a href="#">飘柔</a><a
+                                            href="#">飘柔</a><a href="#">飘柔</a><a href="#">飘柔</a><a href="#">飘柔</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>日韩品牌</dt>
+                                    <dd>
+                                        <a href="#">爱敬</a><a href="#">爱敬</a><a href="#">爱敬</a><a href="#">爱敬</a><a
+                                            href="#">爱敬</a><a href="#">爱敬</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>国货品牌</dt>
+                                    <dd>
+                                        <a href="#">博倩</a>
+                                        <a href="#">宣琪</a>
+                                        <a href="#">妇炎洁</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>女士上装</dt>
+                                    <dd>
+                                        <a href="#">卫衣/绒衫</a> <a href="#">卫衣/绒衫</a> <a href="#">卫衣/绒衫</a> <a href="#">卫衣/绒衫</a>
+                                        <a href="#">卫衣/绒衫</a> <a href="#">卫衣/绒衫</a>
+                                        <a href="#">卫衣/绒衫</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>女士下装</dt>
+                                    <dd>
+                                        <a href="#">打底裤</a> <a href="#">打底裤</a> <a href="#">打底裤</a> <a href="#">打底裤</a>
+                                        <a href="#">打底裤</a> <a href="#">打底裤</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>女士外套</dt>
+                                    <dd>
+                                        <a href="#">风衣</a>
+                                        <a href="#">羽绒服</a>
+                                        <a href="#">风衣</a>
+                                        <a href="#">羽绒服</a>
+                                        <a href="#">毛呢外套</a>
+                                        <a href="#">棉衣棉服</a>
+                                        <a href="#">皮衣</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>男士上装</dt>
+                                    <dd>
+                                        <a href="#">T恤/Polo衫</a>
+                                        <a href="#">衬衫</a>
+                                        <a href="#">背心/马甲</a>
+                                        <a href="#">卫衣/帽衫</a>
+                                        <a href="#">毛衣/针织衫</a>
+                                        <a href="#">夹克</a>
+                                        <a href="#">皮衣</a>
+                                        <a href="#">风衣</a>
+                                        <a href="#">羽绒服</a>
+                                        <a href="#">棉衣</a>
+                                        <a href="#">毛呢大衣</a>
+                                        <a href="#">西服</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>男士下装</dt>
+                                    <dd>
+                                        <a href="#">牛仔裤</a>
+                                        <a href="#">长裤</a>
+                                        <a href="#">短裤</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>女士内衣</dt>
+                                    <dd>
+                                        <a href="#">内衣</a><a href="#">内衣</a><a href="#">内衣</a><a href="#">内衣</a><a
+                                            href="#">内衣</a>
+                                    </dd>
+                                </dl>
+
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>女鞋</dt>
+                                    <dd>
+                                        <a href="#">清凉凉鞋</a>
+                                        <a href="#">时尚单鞋</a>
+                                        <a href="#">休闲帆布鞋</a>
+                                        <a href="#">魅力女鞋</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>男鞋</dt>
+                                    <dd>
+                                        <a href="#">商务正装</a>
+                                        <a href="#">商务休闲</a>
+                                        <a href="#">日常休闲</a>
+                                        <a href="#">运动休闲</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>时尚包</dt>
+                                    <dd>
+                                        <a href="#">钱包/卡包</a>
+                                        <a href="#">钱包/卡包</a>
+                                        <a href="#">钱包/卡包</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>功能包</dt>
+                                    <dd>
+                                        <a href="#">旅行箱包</a>
+                                        <a href="#">旅行箱包</a><a href="#">旅行箱包</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>珠宝</dt>
+                                    <dd>
+                                        <a href="#">手链/手镯</a>
+                                        <a href="#">手链/手镯</a><a href="#">手链/手镯</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>饰品</dt>
+                                    <dd>
+                                        <a href="#">围巾</a>
+                                        <a href="#">围巾</a>
+                                        <a href="#">围巾</a>
+                                        <a href="#">围巾</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>小家电</dt>
+                                    <dd>
+                                        <a href="#">3C配件</a>
+                                        <a href="#">厨房电器</a>
+                                        <a href="#">生活电器</a>
+                                        <a href="#">影音电器</a>
+                                        <a href="#">护理按摩</a>
+                                        <a href="#">灯具</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨具</dt>
+                                    <dd>
+                                        <a href="#">烹饪厨具</a>
+                                        <a href="#">烹饪工具</a>
+                                        <a href="#">收纳保鲜</a>
+                                        <a href="#">水具酒具</a>
+                                        <a href="#">餐具</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>家居日用</dt>
+                                    <dd>
+                                        <a href="#">打火机</a>
+                                        <a href="#">指甲剪</a>
+                                        <a href="#">收纳用品</a>
+                                        <a href="#">雨伞雨具</a>
+                                        <a href="#">卫浴用品</a>
+                                        <a href="#">净化除味</a>
+                                        <a href="#">家居饰品</a>
+                                        <a href="#">清洁用品</a>
+                                        <a href="#">家纺</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>食品零售</dt>
+                                    <dd>
+                                        <a href="#">小零食</a>
+                                        <a href="#">饼干蛋糕</a>
+                                        <a href="#">冲饮谷物</a>
+                                        <a href="#"> 冲饮</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>幼儿奶粉</dt>
+                                    <dd>
+                                        <a href="#">一段奶粉</a>
+                                        <a href="#">二段奶粉</a>
+                                        <a href="#">三段奶粉</a>
+                                        <a href="#">四段奶粉</a>
+                                        <a href="#">驱蚊用品</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>母婴</dt>
+                                    <dd>
+                                        <a href="#">童鞋</a>
+                                        <a href="#">玩具</a>
+                                        <a href="#">童装</a>
+                                        <a href="#">妈妈专区</a>
+                                        <a href="#">儿童寝具</a>
+                                        <a href="#">纸尿裤</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="pop_list_wrap">
+                            <ul class="pop_list">
+                                <li class="t1 current">
+                                    <a href="#">面部护理</a><b></b>
+                                </li>
+                                <li class="t2">
+                                    <a href="#">彩妆香氛</a><b></b>
+                                </li>
+                                <li class="t3">
+                                    <a href="#">身体护理</a><b></b>
+                                </li>
+                                <li class="t4">
+                                    <a href="#">服饰/内衣</a><b></b>
+                                </li>
+                                <li class="t5">
+                                    <a href="#">鞋包/配饰</a><b></b>
+                                </li>
+                                <li class="t6">
+                                    <a href="#">居家/母婴</a><b></b>
+                                </li>
+                            </ul>
+                        </div>-->
+
+                </li>
+                <li class="head_top_gd head_top_bg" id="more"><a href="#">更多</a>
+                    <a href="#">
+                        <span class="head_top_tagmore"></span>
+                    </a>
+                    <ul class="head_more" id="head_more">
+                        <li><a href="#">邀请好友</a></li>
+                        <li><a href="#">加入收藏</a></li>
+                        <li><a href="#">新浪微博
+                        </a></li>
+                        <li><a href="#">聚美微信</a></li>
+                        <li><a href="#">百度贴吧</a></li>
+                        <li><a href="#">腾讯微博</a></li>
+                        <li><a href="#">人人公众主页</a></li>
+                    </ul>
+                    <span id="sina"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--head_top end-->
+    <!--head center begin-->
+    <div class="head_center">
+        <h1 class="head_center_logo">
+            <a href="#" title="聚美优品">化妆品品牌排行榜大全网站聚美优品</a>
+        </h1>
+
+        <div class="head_center_searchbox head_center_searchbox_form">
+            <form>
+                <input name="search" type="text" value="补水" class="header_center_searchbox_input ">
+                <button type="submit" class="head_center_btn">搜索</button>
+            </form>
+            <ul class="head_center_hotword">
+                <li><a href="#">保湿</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">面膜</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">洗面奶</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">补水</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">香水</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">眼霜</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">口红</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">护肤套装</a></li>
+                <li class="hotword_line"></li>
+                <li><a href="#">BB霜</a></li>
+            </ul>
+
+        </div>
+        <div class="head_center_cartbox" id="head_center_cartbox">
+
+            <span class="text" id="text">
+                 <img src="img/cart.gif" width="28" height="28" class="cart_gif">
+                去购物车结算
+            <a href="#" class="icon_right"></a>
+            </span>
+
+            <div class="gwc" id="gwc">购物车中还没有商品<br>快去挑选心爱的宝贝吧！</div>
+        </div>
+
+    </div>
+
+    <!--head_center end-->
+    <!--head bottom begin-->
+    <div class="head_bottom">
+        <div class="head_nav_box">
+            <ul>
+                <li class="current"><a href="#" class="home">首页</a></li>
+                <li><a href="#">极速免税店</a></li>
+                <li class="muying"><a href="#"><img src="img/muy1.gif"></a></li>
+                <li class="mzsc"><a href="#">美妆商城 <b></b></a></li>
+                <li class="ggqs"><a href="#"><img src="img/lux2.jpg"></a></li>
+                <li class="fzyd"><a href="#">服装运动</a></li>
+                <li class="xbps"><a href="#">鞋包配饰</a></li>
+                <li class="ppfwm"><a href="#">&nbsp;&nbsp;品牌防伪码</a></li>
+                <li class="mz30"><a href="#">&nbsp;&nbsp;美妆30天无条件退换</a></li>
+                <li class="mzmj"><a href="#">&nbsp;&nbsp;美妆满2件或299元包邮</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--head bottom end-->
+<!--首页主要轮播广告图 begin-->
+<div class="site_body">
+
+    <ul class="site_box" id="site_box">
+        <li class="site_one"></li>
+        <li class="site_two"></li>
+        <li class="site_three"></li>
+        <li class="site_four"></li>
+    </ul>
+
+
+    <div class="site_index" id="site_index">
+        <a href="#" class="cc">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+    </div>
+</div>
+<!--首页主要轮播广告图 end-->
+
+<!--入场疯抢 start-->
+<div class="home_fengqiang">
+    <a href="#"><img src="img/49121_535_212_003-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48802_535_212_002-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48803_535_212_002-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48804_535_212_001-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48805_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48806_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48807_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48808_535_212_002-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48809_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48810_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48811_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48812_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48813_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48814_535_212_002-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48815_535_212_001-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48816_535_212_002-web.jpg" border="0"></a>
+</div>
+<!--入场疯抢 end-->
+
+<!--提前逛逛 begin-->
+<div class="home_tqgg">
+    <a href="#"><img src="img/48817_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48818_535_212_002-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48819_535_212_001-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48820_535_212_003-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48821_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48822_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48823_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48824_535_212_002-web.jpg" border="0"></a>
+    <a href="#"> <img src="img/48825_535_212_002-web.jpg" border="0"></a>
+    <a href="#"><img src="img/48826_535_212_002-web.jpg" border="0"></a>
+</div>
+
+<!--提前逛逛 end-->
+
+
+<div class="middle"></div>
+
+<!--每日必看 begin-->
+<img src="img/old_top_tit.jpg" class="mrbk">
+<span class="home_todayllook">
+
+    <a href="#"><img src="img/48833_1090_308_001-web.jpg" class="home_td"></a>
+    <a href="#"><img src="img/48831_1090_308_001-web.jpg" class="home_td"></a>
+    <div class="must-see">
+        <div class="must-see-timer1">今天22:00</div>
+        <a href="#"><img src="img/ht150928p1746416t1_1_2_1070_305.jpg" class="must-see-one"></a>
+
+        <div class="endtime"><span>距离特卖结束</span>&nbsp;<span>已结束</span></div>
+        <div class="must-see-timer2">明天10:00</div>
+        <a href="#"><img src="img/ht150929p1416578t1_1_2_1070_305.jpg" class="must-see-two"></a>
+
+        <div class="kq_time">9月29日早10点开枪</div>
+    </div>
+</span>
+<!--每日必看 end-->
+
+<!--top爆款 begin-->
+<div class="to_hot">
+    <a href="#"> 查看更多爆款</a>
+</div>
+<div class="hot_box">
+    <div class="box_img">
+        <a href="#"><img src="img/1293263_dx_1500_400.jpg"></a>
+    </div>
+    <div class="hot_product">
+        <span class="hot_tag"></span>
+
+        <div class="today_end_time">
+            距特卖结束&nbsp;<span>01:11:45:40</span>
+        </div>
+        <span class="hot_top1"></span>
+
+        <span class="hot_text"><em>3.1折/[官方授权]</em><a href="#">妹子我听说你手残？唇膏总爱画出界？来自星星的大拯救——许愿星形的唇膏你！见！过！吗！精致雕工造型美cry，明明可以靠颜值，却偏要拼实力！棱角紧密贴合唇边缘，手残如你也能轻松勾勒立体唇型！气场想你色+显白阿宝色，水润显色配方，纯粹透亮，星光美唇一抹就有！燎原更撩他！</a></span>
+
+        <div class="hot_price">
+            <span class="now_price">￥69</span>
+            <span class="hot_baoyou">包邮</span>
+            <span class="old_price"><del>￥139</del></span>
+            <span class="bottom_jsmsd"><img src="img/029_big.jpg" width="134px" height="45px"></span>
+            <span class="golook"> <a href="#">去看看</a></span>
+            <span class="buy_total"><em>7527</em>人已经购买</span>
+        </div>
+        <div class="hot_hidden">
+            <span>海外价格</span>
+            <span>海外直踩</span>
+            <span>海外发货</span>
+        </div>
+    </div>
+
+</div>
+<div class="hot_box">
+    <div class="box_img">
+        <a href="#"><img src="img/1293263_dx_1500_400.jpg"></a>
+    </div>
+
+    <div class="over_buy"></div>
+    <div class="hot_product">
+        <span class="hot_tag"></span>
+
+        <div class="today_end_time">
+            抢光于今日11时
+        </div>
+        <span class="hot_top1"></span>
+
+        <span class="hot_text"><em>3.1折/[官方授权]</em><a href="#">妹子我听说你手残？唇膏总爱画出界？来自星星的大拯救——许愿星形的唇膏你！见！过！吗！精致雕工造型美cry，明明可以靠颜值，却偏要拼实力！棱角紧密贴合唇边缘，手残如你也能轻松勾勒立体唇型！气场想你色+显白阿宝色，水润显色配方，纯粹透亮，星光美唇一抹就有！燎原更撩他！</a></span>
+
+        <div class="hot_price">
+            <span class="now_price">￥69</span>
+            <span class="hot_baoyou">包邮</span>
+            <span class="old_price"><del>￥139</del></span>
+            <span class="bottom_jsmsd"><img src="img/029_big.jpg" width="134px" height="45px"></span>
+            <span class="golook"> <a href="#">去看看</a></span>
+            <span class="buy_total"><em>7527</em>人已经购买</span>
+        </div>
+        <div class="hot_hidden">
+            <span>海外价格</span>
+            <span>海外直踩</span>
+            <span>海外发货</span>
+        </div>
+    </div>
+
+</div>
+<!--top爆款end-->
+
+<!-- 今日推荐品牌 begin  -->
+<div class="brands_deal">
+    <h3>今日推荐品牌团<em>BRAND'S DEAL</em><a href="#" class="more">查看更多>></a></h3>
+    <ul>
+        <li><a href="#">
+            <img width="345px" height="184px" src="img/560a6a1404e41_450_240.jpg">
+
+            <div class="desc">
+                <p><b>雅诗兰黛品牌团</b></p>
+
+                <p>顶级护肤，重现青春光彩</p>
+
+                <p class="zhe">全场<span>4</span>折</p>
+
+                <p class="tmsj"><span>特卖剩余时间</span></p>
+                <img class="tmimg" src="img/71.jpg" width="90px" height="45">
+            </div>
+        </a></li>
+        <li><a href="#">
+            <img width="345px" height="184px" src="img/560a6a1404e41_450_240.jpg">
+
+            <div class="desc">
+                <p><b>雅诗兰黛品牌团</b></p>
+
+                <p>顶级护肤，重现青春光彩</p>
+
+                <p class="zhe">全场<span>4</span>折</p>
+
+                <p class="tmsj"><span>特卖剩余时间</span></p>
+                <img class="tmimg" src="img/71.jpg" width="90px" height="45">
+            </div>
+        </a></li>
+        <li><a href="#">
+            <img width="345px" height="184px" src="img/560a6a1404e41_450_240.jpg">
+
+            <div class="desc">
+                <p><b>雅诗兰黛品牌团</b></p>
+
+                <p>顶级护肤，重现青春光彩</p>
+
+                <p class="zhe">全场<span>4</span>折</p>
+
+                <p class="tmsj"><span>特卖剩余时间</span></p>
+                <img class="tmimg" src="img/71.jpg" width="90px" height="45">
+            </div>
+        </a></li>
+        <li><a href="#">
+            <img width="345px" height="184px" src="img/560a6a1404e41_450_240.jpg">
+
+            <div class="desc">
+                <p><b>雅诗兰黛品牌团</b></p>
+
+                <p>顶级护肤，重现青春光彩</p>
+
+                <p class="zhe">全场<span>4</span>折</p>
+
+                <p class="tmsj"><span>特卖剩余时间</span></p>
+                <img class="tmimg" src="img/71.jpg" width="90px" height="45">
+            </div>
+        </a></li>
+        <li><a href="#">
+            <img width="345px" height="184px" src="img/560a6a1404e41_450_240.jpg">
+
+            <div class="desc">
+                <p><b>雅诗兰黛品牌团</b></p>
+
+                <p>顶级护肤，重现青春光彩</p>
+
+                <p class="zhe">全场<span>4</span>折</p>
+
+                <p class="tmsj"><span>特卖剩余时间</span></p>
+                <img class="tmimg" src="img/71.jpg" width="90px" height="45">
+            </div>
+        </a></li>
+        <li><a href="#">
+            <img width="345px" height="184px" src="img/560a6a1404e41_450_240.jpg">
+
+            <div class="desc">
+                <p><b>雅诗兰黛品牌团</b></p>
+
+                <p>顶级护肤，重现青春光彩</p>
+
+                <p class="zhe">全场<span>4</span>折</p>
+
+                <p class="tmsj"><span>特卖剩余时间</span></p>
+                <img class="tmimg" src="img/71.jpg" width="90px" height="45">
+            </div>
+        </a></li>
+    </ul>
+
+
+</div>
+<!-- 今日推荐品牌 end  -->
+<!--全部分类 begin-->
+<div class="sell_box">
+    <h2 class="jmbkb"></h2>
+    <ul class="table_menu">
+        <li class="sellcurrent">全部分类</li>
+    </ul>
+    <span class="xl">销量</span>
+    <span class="jt"></span>
+
+    <div class="fenlei">
+        <a href="javascript:;">
+            <img src="img/45838_350_205_002-web.jpg">
+        </a>
+        <a href="javascript:;">
+            <img src="img/45838_350_205_002-web.jpg">
+        </a>
+        <a href="javascript:;">
+            <img src="img/45838_350_205_002-web.jpg">
+        </a>
+    </div>
+</div>
+<!--全部分类 end-->
+<!--今日上新单品 begin-->
+<div class="sxdp_head">
+    <p>每日十点上新</p>
+</div>
+<div class="today_newproduct">
+    <ul class="newdeal_ul">
+        <li>
+            <img src="img/1862069_dx_1000_400.jpg">
+
+            <div class="commit_new">
+                <div class="commit_new_text">海外直采 海外价格 闪电发货</div>
+                <div class="commit_new_look">去看看</div>
+            </div>
+            <span class="tag_list1"></span>
+            <span class="tag_list2"></span>
+
+            <p class="title">
+                <span class="pink">6.3折/</span>雅诗兰黛红石榴好气色经典三件套，肌肤由内而外透出光采！
+            </p>
+
+            <div class="price_box">
+                <em>￥</em><span class="pnum">799</span>
+            </div>
+            <div class="icon_p">
+                <span class="y_icon">包邮</span>
+            </div>
+            <span class="mnum">¥1270</span>
+
+            <div class="numtime_box">
+                <div class="flag">
+                    <img src="img/029_big.jpg"></div>
+
+                销量：<span class="buy_num">4846</span>
+            </div>
+        </li>
+        <li>
+            <img src="img/1862069_dx_1000_400.jpg">
+
+            <div class="commit_new">
+                <div class="commit_new_text">海外直采 海外价格 闪电发货</div>
+                <div class="commit_new_look">去看看</div>
+            </div>
+            <span class="tag_list1"></span>
+            <span class="tag_list2"></span>
+
+            <p class="title">
+                <span class="pink">6.3折/</span>雅诗兰黛红石榴好气色经典三件套，肌肤由内而外透出光采！
+            </p>
+
+            <div class="price_box">
+                <em>￥</em><span class="pnum">799</span>
+            </div>
+            <div class="icon_p">
+                <span class="y_icon">包邮</span>
+            </div>
+            <span class="mnum">¥1270</span>
+
+            <div class="numtime_box">
+                <div class="flag">
+                    <img src="img/029_big.jpg"></div>
+
+                销量：<span class="buy_num">4846</span>
+            </div>
+        </li>
+        <li>
+            <img src="img/1862069_dx_1000_400.jpg">
+
+            <div class="commit_new">
+                <div class="commit_new_text">海外直采 海外价格 闪电发货</div>
+                <div class="commit_new_look">去看看</div>
+            </div>
+            <span class="tag_list1"></span>
+            <span class="tag_list2"></span>
+
+            <p class="title">
+                <span class="pink">6.3折/</span>雅诗兰黛红石榴好气色经典三件套，肌肤由内而外透出光采！
+            </p>
+
+            <div class="price_box">
+                <em>￥</em><span class="pnum">799</span>
+            </div>
+            <div class="icon_p">
+                <span class="y_icon">包邮</span>
+            </div>
+            <span class="mnum">¥1270</span>
+
+            <div class="numtime_box">
+                <div class="flag">
+                    <img src="img/029_big.jpg"></div>
+
+                销量：<span class="buy_num">4846</span>
+            </div>
+
+        </li>
+    </ul>
+
+
+</div>
+
+
+<!--今日上新单品 end-->
+<!--美妆品牌团 begin-->
+<div class="mzppt_head">
+    <a href="#" class="mzmore">查看更多>></a>
+</div>
+<div class="mzppt">
+    <div class="leftimg">
+        <a href="#"><img src="img/21619_258_425_001-web.jpg"></a>
+    </div>
+    <li><a href="#"><img src="img/48776_380_205_002-web.jpg"></a>
+
+        <div class="sell_text">
+            <p class="tit">瑰珀翠品牌团</p>
+
+            <p class="subtit">宠爱自己 无需理由</p>
+
+            <p class="sale">满<em>179</em>赠<em>60</em></p>
+
+            <p class="time_left home_timer">02<em>天</em>22<em>时</em>57<em>分</em>39<em>秒</em></p>
+        </div>
+
+    </li>
+    <li><a href="#"><img src="img/48776_380_205_002-web.jpg"></a>
+
+        <div class="sell_text">
+            <p class="tit">瑰珀翠品牌团</p>
+
+            <p class="subtit">宠爱自己 无需理由</p>
+
+            <p class="sale">满<em>179</em>赠<em>60</em></p>
+
+            <p class="time_left home_timer">02<em>天</em>22<em>时</em>57<em>分</em>39<em>秒</em></p>
+        </div>
+    </li>
+    <li><a href="#"><img src="img/48776_380_205_002-web.jpg"></a>
+
+        <div class="sell_text">
+            <p class="tit">瑰珀翠品牌团</p>
+
+            <p class="subtit">宠爱自己 无需理由</p>
+
+            <p class="sale">满<em>179</em>赠<em>60</em></p>
+
+            <p class="time_left home_timer">02<em>天</em>22<em>时</em>57<em>分</em>39<em>秒</em></p>
+        </div>
+    </li>
+    <li><a href="#"><img src="img/48776_380_205_002-web.jpg"></a>
+
+        <div class="sell_text">
+            <p class="tit">瑰珀翠品牌团</p>
+
+            <p class="subtit">宠爱自己 无需理由</p>
+
+            <p class="sale">满<em>179</em>赠<em>60</em></p>
+
+            <p class="time_left home_timer">02<em>天</em>22<em>时</em>57<em>分</em>39<em>秒</em></p>
+        </div>
+    </li>
+</div>
+<!--美妆品牌团 end-->
+<!--口碑热议 begin-->
+<div class="koubei_head">
+</div>
+<div class="koubei">
+    <div class="sc_contain">
+        <ul class="koubeiul" id="koubeiImg">
+            <li><a href="#"><img src="img/47348_640_300_002-web.jpg"></a></li>
+            <li><a href="#"><img src="img/48753_640_300_002-web.jpg"></a></li>
+            <li><a href="#"><img src="img/45808_640_300_002-web.jpg"></a></li>
+            <li><a href="#"><img src="img/45004_640_300_002-web.jpg"></a></li>
+        </ul>
+        <div class="index">
+            <span class="index_left" id="koubeiLeft"></span>
+            <span class="index_right" id="koubeiRight"></span>
+        </div>
+    </div>
+    <div class="koubei_right">
+        <a href="#"><img src="img/14407535834421.jpg"></a>
+
+        <div class="alpha-info">【小猫学化妆】七夕复古party妆，东方茱莉叶惊艳全场</div>
+        <ul>
+            <li>
+                <a href="#">专业护手护甲套装</a>
+            </li>
+            <li><a href="#">【惠儿】女人就要越活越美丽，我有玉兰油多效修复霜</a></li>
+            <li>
+                <a href="#">绿帮~超薄超透气的纸尿裤！！！</a>
+            </li>
+            <li>
+                <a href="#">平价也能很美丽——SOLONE缤纷乐园眼彩盒</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--口碑热议 end-->
+
+<!--底部 begin-->
+<div class="foot">
+    <div class="foot_head">
+        <a href="#" class="foot_link">
+            <span class="icon"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+        </a>
+        <a href="#" class="foot_link">
+            <span class="icon2"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+
+        </a>
+        <a href="#" class="foot_link">
+            <span class="icon3"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+
+        </a>
+        <a href="#" class="foot_link">
+            <span class="icon4"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+        </a>
+        <a href="#" class="foot_link">
+            <span class="icon"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+
+        </a>
+        <a href="#" class="foot_link">
+            <span class="icon"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+
+        </a>
+        <a href="#" class="foot_link">
+            <span class="icon"></span>
+            <span class="con"><b>值得信赖美妆电商</b></span>
+            四千万用户信赖
+        </a>
+    </div>
+    <div class="foot_middle">
+        <ul>
+            <li class="link">服务保障</li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li>总裁邮箱ceo@jumei.com</li>
+        </ul>
+        <ul>
+            <li class="link">服务保障</li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+        </ul>
+        <ul>
+            <li class="link">服务保障</li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+
+        </ul>
+        <ul>
+            <li class="link">服务保障</li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+        </ul>
+        <ul>
+            <li class="link">服务保障</li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+            <li><a href="#">品牌真品防伪码</a></li>
+        </ul>
+        <ul class="sjjm">
+            <li class="links">手机聚美</li>
+            <li><span class="link_bottom_pic"></span></li>
+            <li>下载移动客户端</li>
+        </ul>
+        <ul>
+            <li class="links">手机聚美</li>
+            <li><span class="link_bottom_pic"></span></li>
+            <li>下载移动客户端</li>
+        </ul>
+    </div>
+    <div class="foot_bottom">
+        <div class="bottom_top"></div>
+        <div class="bottom_center">
+            <div class="nav">
+                <a href="#">关于聚美优品</a>
+                <a href="#">INVESTOR RELATIONS</a>
+                <a href="#">商家入驻</a>
+                <a href="#">获取更新</a>
+                <a href="#">加入聚美</a>
+                <a href="#">品牌合作专区</a>
+                <a href="#">网站联盟</a>
+                <a href="#">媒体报道</a>
+                <a href="#">商务合作</a>
+            </div>
+        </div>
+        <div class="bottom_bottom">
+            <div class="bottom_copyright">
+                COPYRIGHT © 2010-2015 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。客服热线：400-123-8888
+                <p class="infoma">
+                    京公网安备 11010102001226 | <a href="#">京ICP证111033号</a> | 食品流通许可证 SP1101051110165515（1-1）<a href="#">营业执照</a>
+                </p>
+            </div>
+            <div class="copy_logo">
+                <a class="logo1"></a>
+                <a class="logo1"></a>
+                <a class="logo1" href="#"></a>
+                <a class="logo1"></a>
+                <a class="logo1" href="#"></a>
+                <a class="logo1"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部 end-->
+
+
+<!--右边公共模块 begin-->
+
+<div class="ibar">
+    <div class="ibar_main_panel" style="left:0;">
+        <ul>
+            <a href="#">
+                <li class="mpbtn-login"></li>
+            </a>
+            <a href="#">
+                <li class="mpbtn-car"></li>
+            </a>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+<!--右边公共模块 end-->
+
+
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript" src="js/jumei.js"></script>
+</body>
+</html>
